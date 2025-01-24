@@ -13,10 +13,9 @@ change.addEventListener("click",remove)
 //functions
 function listen(square) {
     square.addEventListener("mouseenter", () => {
-        square.classList.toggle("filled")
-        square.classList.toggle("square")
-        console.log("this is working")
-    },{once: true})
+        square.classList.add("filled")
+        //square.classList.toggle("square")
+    })
 }
 function remove() {
     const squares = document.querySelectorAll(".square")
