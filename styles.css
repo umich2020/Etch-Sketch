@@ -17,6 +17,12 @@ body {
 }
 .square {
     background-color: #676767;
+
+}
+.filled {
+    background: lightcoral;
+}
+.square, .filled {
     width: 30px;
     border: solid black;
 }
