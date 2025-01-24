@@ -12,6 +12,8 @@ change.addEventListener("click", () =>{
     let userInput = prompt("this is a test message",16)
     if (userInput <= 100 && userInput>=1) {
         createSquares(userInput)
+    } else {
+        alert("size of sqaures has to be lower than 101 and greater than 0")
     }
 })
 

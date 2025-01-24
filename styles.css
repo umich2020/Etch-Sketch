@@ -20,11 +20,11 @@ body {
     background-color: blue;
 }
 .square {
-    background-color: #676767;
+    background-color: white;
 
 }
 .filled {
-    background: lightcoral;
+    background: black;
 }
 .square, .filled {
     width: 30px;
