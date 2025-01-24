@@ -5,12 +5,16 @@
     display: flex;
     flex-wrap: wrap;
 
+
     
 }
 body {
     background-color: green;
     display: flex;
     justify-content: center;
+    align-self: center;
+    flex-direction: column;
+
 }
 #box {
     background-color: blue;
@@ -24,5 +28,14 @@ body {
 }
 .square, .filled {
     width: 30px;
-    border: solid black;
+    height: 30px;
+}
+#change {
+    max-width: fit-content;
+    
+}
+html {
+    display: flex;
+    justify-content: center;
+
 }
